@@ -10,7 +10,7 @@ body{
     padding-left: 2%;
 }
 .orange-color{
-    color: orange;
+    color: rgb(255, 169, 112);
 }
 h1{
     font-size: 50px;
@@ -73,13 +73,24 @@ h2{
 .picture{
     height: 350px;
     width: 350px;
+    
+}
+#coding{
+    float: left;
     margin-left: 90px;
     padding-left: 2%;
     padding-right: 50px;
 }
-#coding{
-    float: left;
-}
 #community{
     float: right;
+    margin-right: 90px;
+    
+    padding-right: 2%;
+    padding-left: 50px;
+}
+
+footer{
+    background-color: rgb(35, 34, 46);
+    text-align: center;
+    padding: 20px;
 }
