@@ -14,15 +14,9 @@ body{
 }
 h1{
     font-size: 50px;
-}
-/* section{
-    height: 500px;
-    padding-bottom: 150px;
+    font-weight: 700;
 }
 
-h1 span{
-    color: orange;
-} */
 .half-width img{
     width: 100%;
 }
@@ -33,6 +27,7 @@ h1 span{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 .illustrator{
     height: 120px;
@@ -69,6 +64,7 @@ h1 span{
 
 h2{
     font-size: 30px;
+    font-weight: 700;
 }
 .picture{
     height: 350px;
@@ -93,4 +89,11 @@ footer{
     background-color: rgb(35, 34, 46);
     text-align: center;
     padding: 20px;
+}
+
+.side-border{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+   
 }
